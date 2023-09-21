@@ -19,4 +19,4 @@ function triples(n) {
     }
 }
 
-triples(3);
+triples(2);
