@@ -1,3 +1,3 @@
 # JS-Fundamentals
 
-JavaScript Fundamentals Course @ softuni.bg !
+JavaScript Fundamentals Module Course @ softuni.bg !
