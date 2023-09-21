@@ -15,8 +15,8 @@ function triples(n) {
             }
             bufferY = '';
         }
-        bufferX = ''
+        bufferX = '';
     }
 }
 
-triples(26)
+triples(3);
