@@ -14,4 +14,4 @@ function ages(age) {
     }
 }
 
-ages(15);
+ages(16);
