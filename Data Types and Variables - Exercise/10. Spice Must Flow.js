@@ -22,3 +22,5 @@ function mine(startYield) {
     console.log(days)
     console.log(total)
 }
+
+mine(2323)
