@@ -1,12 +1,12 @@
 function reverse(n, array) {
 
-    let buffer = ''
+    let revArr = []
 
     for (let i = n; i > 0; i--) {
-        buffer += array[i - 1] + ' ';
+        revArr.push(array[i - 1])
     }
 
-    console.log(buffer)
+    console.log(revArr.join(` `))
 }
 
 reverse(3, [10, 20, 30, 40, 50]);
