@@ -1,8 +1,12 @@
 function sumFirstAndLast(arr) {
 
-    let num1 = Number(arr.shift());
-    let num2 = Number(arr.pop());
-    console.log(num1 + num2);
+    if (arr.length > 1) {
+        console.log(Number(arr.shift())  + Number(arr.pop()));
+
+    } else if (arr.length == 1) {
+        console.log(Number(arr.shift()));
+    }
+    
 }
 
-sumFirstAndLast(['20']);
+sumFirstAndLast(['20', '30', '50']);
